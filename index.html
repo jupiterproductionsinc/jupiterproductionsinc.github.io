@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Company Name</title>
+  <style>
+    body {
+      background-color: #819675;
+      color: #23220B;
+      font-family: Georgia, Times New Roman, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      padding: 60px 0 20px 0;
+    }
+
+    header img {
+      max-width: 400px;
+      width: 60%;
+      height: auto;
+    }
+
+    main {    }
+
+    footer {
+      font-size: 0.9em;
+      margin: 50px 0 20px;
+    }
+
+    a {
+      color: #23220B;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Jupiter_Logo 2.png" alt="Company Logo">
+  </header>
+
+  <main>
+    <h1>Jupiter Productions Inc.</h1>
+    <p>
+      A film production company. <p>  
+      We’re glad you’re here — check back soon for more updates.
+    </p>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> Jupiter Productions Inc. All rights reserved.
+  </footer>
+
+  <script>
+    // Automatically update copyright year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
